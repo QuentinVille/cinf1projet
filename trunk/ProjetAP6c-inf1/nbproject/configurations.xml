@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="source">
+      <in>Arbre.cc</in>
+      <in>Arbre.h</in>
+      <in>LecteurCaractere.cc</in>
+      <in>LecteurCaractere.h</in>
+      <in>LecteurPhraseAvecArbre.cc</in>
+      <in>LecteurPhraseAvecArbre.h</in>
+      <in>LecteurPhraseAvecTable.cc</in>
+      <in>LecteurPhraseAvecTable.h</in>
+      <in>LecteurPhraseSimple.cc</in>
+      <in>LecteurPhraseSimple.h</in>
+      <in>LecteurSymbole.cc</in>
+      <in>LecteurSymbole.h</in>
+      <in>Symbole.cc</in>
+      <in>Symbole.h</in>
+      <in>SymboleValue.cc</in>
+      <in>SymboleValue.h</in>
+      <in>TableSymboles.cc</in>
+      <in>TableSymboles.h</in>
+      <in>TestLecteurPhraseAvecArbre.cc</in>
+      <in>TestLecteurPhraseAvecTable.cc</in>
+      <in>TestLecteurPhraseSimple.cc</in>
+      <in>TestLecteurSymbole.cc</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="Arbre.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Arbre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LecteurCaractere.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LecteurCaractere.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LecteurPhraseAvecArbre.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LecteurPhraseAvecArbre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LecteurPhraseAvecTable.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LecteurPhraseAvecTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LecteurPhraseSimple.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LecteurPhraseSimple.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LecteurSymbole.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LecteurSymbole.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Symbole.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Symbole.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SymboleValue.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SymboleValue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TableSymboles.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TableSymboles.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TestLecteurPhraseAvecArbre.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TestLecteurPhraseAvecTable.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TestLecteurPhraseSimple.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TestLecteurSymbole.cc" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

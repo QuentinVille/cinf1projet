@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="source">
+      <in>Arbre.cc</in>
+      <in>Arbre.h</in>
+      <in>LecteurCaractere.cc</in>
+      <in>LecteurCaractere.h</in>
+      <in>LecteurPhraseAvecArbre.cc</in>
+      <in>LecteurPhraseAvecArbre.h</in>
+      <in>LecteurPhraseAvecTable.cc</in>
+      <in>LecteurPhraseAvecTable.h</in>
+      <in>LecteurPhraseSimple.cc</in>
+      <in>LecteurPhraseSimple.h</in>
+      <in>LecteurSymbole.cc</in>
+      <in>LecteurSymbole.h</in>
+      <in>Symbole.cc</in>
+      <in>Symbole.h</in>
+      <in>SymboleValue.cc</in>
+      <in>SymboleValue.h</in>
+      <in>TableSymboles.cc</in>
+      <in>TableSymboles.h</in>
+      <in>TestLecteurPhraseAvecArbre.cc</in>
+      <in>TestLecteurPhraseAvecTable.cc</in>
+      <in>TestLecteurPhraseSimple.cc</in>
+      <in>TestLecteurSymbole.cc</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
