@@ -47,6 +47,17 @@ string LecteurSymbole::motSuivant() {
 		} while (isalpha(lc.getCarCour())  || 
 				 isdigit(lc.getCarCour()) || 
 				 lc.getCarCour()=='_');
+                
+        else if ((lc.getCarCour())== '"')
+            // c'est le début d'une chaine
+            do {
+                        s=s+lc.getCarCour();
+                        lc.suivant();
+            } while ((lc.getCarCour()!= '"'));
+                                
+        
+        
+            
 	
 	else if (lc.getCarCour()!=EOF)
 	// c'est un caractere special

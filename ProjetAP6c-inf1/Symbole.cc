@@ -13,7 +13,9 @@ Symbole::Symbole(string s) {
 	else if (isdigit(s[0])) this->categorie=ENTIER;
         else if (isMotCle(s))   this->categorie=MOTCLE;
 	else if (isalpha(s[0])) this->categorie=VARIABLE;
-	else                    this->categorie=INDEFINI;
+        else if ((s[0])=('"')) this ->categorie=CHAINE;
+	else this->categorie=INDEFINI;
+        
 }
 
 ////////////////////////////////////////////////////////////////////////////////
